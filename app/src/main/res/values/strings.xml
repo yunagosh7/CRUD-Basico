@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CRUD Basico</string>
+    <string name="app_name">Lista de tareas</string>
+    <string name="categories">Categorías:</string>
+    <string name="tasks">Tareas:</string>
 </resources>
