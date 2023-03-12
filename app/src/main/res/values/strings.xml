@@ -2,4 +2,9 @@
     <string name="app_name">Lista de tareas</string>
     <string name="categories">Categorías:</string>
     <string name="tasks">Tareas:</string>
+    <string name="et_dialog">Añade la tarea</string>
+    <string name="business">Negocios</string>
+    <string name="other">Otros</string>
+    <string name="personal">Personal</string>
+    <string name="add_task">Añadir tarea</string>
 </resources>
