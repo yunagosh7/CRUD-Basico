@@ -69,9 +69,16 @@ class MainActivity : AppCompatActivity() {
         rvCategories.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         rvCategories.adapter = categoriesAdapter
 
-        tasksAdapter = TaskAdapter(tasksList)
+        tasksAdapter = TaskAdapter(tasksList) { position ->
+            onItemSelected(position)
+        }
         rvTasks.layoutManager = LinearLayoutManager(this)
         rvTasks.adapter = tasksAdapter
+    }
+
+    private fun onItemSelected(i: Int) {
+        tasksList[i].isSelected = !tasksList[i].isSelected
+        updateTasks()
     }
 
 
