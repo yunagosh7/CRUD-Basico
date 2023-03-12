@@ -5,7 +5,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.crudbasico.R
-import com.example.crudbasico.TaskCategory
+import com.example.crudbasico.model.TaskCategory
 
 class CategoriesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 

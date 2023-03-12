@@ -1,4 +1,4 @@
-package com.example.crudbasico
+package com.example.crudbasico.model
 
 sealed class TaskCategory {
     object Personal: TaskCategory()

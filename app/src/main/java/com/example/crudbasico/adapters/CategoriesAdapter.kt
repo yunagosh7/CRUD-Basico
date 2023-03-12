@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.crudbasico.R
-import com.example.crudbasico.TaskCategory
+import com.example.crudbasico.model.TaskCategory
 
 class CategoriesAdapter(private val categories: List<TaskCategory>) :
     RecyclerView.Adapter<CategoriesViewHolder>() {
